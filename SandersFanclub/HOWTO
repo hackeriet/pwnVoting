@@ -1,1 +1,1 @@
-GET -H "Accept: text/css" text/css http://sandersfanclub.pwn.democrat/flag2.jpg
+GET -H "Accept: text/css" http://sandersfanclub.pwn.democrat/flag2.jpg
