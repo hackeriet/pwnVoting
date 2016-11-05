@@ -19,8 +19,6 @@ public class TopKek {
             StringBuilder sb = new StringBuilder();
 
             for(String p : parts) {
-                System.out.println("p = " + p);
-                System.out.println("p.length() = " + p.length());
                 sb.append(Integer.toString(translation.get(p)));
             }
 
