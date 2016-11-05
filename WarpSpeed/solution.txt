@@ -1,0 +1,17 @@
+The jpeg photo is split into 8px rows, and the lines are re-arranged in following order:
+
+1 2
+3 4
+5 6
+...
+
+
+by re-arranging the rows needs to be re-orged into
+1
+2
+3
+4
+5
+...
+
+we get the non-distored text, and the flag.
