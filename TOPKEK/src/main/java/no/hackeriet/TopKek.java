@@ -48,7 +48,7 @@ public class TopKek {
     public static String toStringFromInt(BigInteger bi) {
         StringBuilder append = new StringBuilder();
         for (String b : bi.toString(2).split("(?<=\\G........)")) {
-            BigInteger bi2 = new BigInteger(b, 8);
+            BigInteger bi2 = new BigInteger(b, 2);
 
             append.append((char) bi2.intValue());
         }
