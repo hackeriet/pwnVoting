@@ -1,0 +1,14 @@
+GET http://sandersfanclub.pwn.democrat/flag2.jpg
+418 I'm a teapot
+Connection: close
+Date: Sat, 05 Nov 2016 14:22:34 GMT
+Server: nginx/1.10.0 (Ubuntu)
+Content-Length: 116
+Content-Type: text/css
+Client-Date: Sat, 05 Nov 2016 14:22:34 GMT
+Client-Peer: 52.205.233.191:80
+Client-Response-Num: 1
+
+Password reminder: flag{I_am_very_bad_with_computers}
+(Go tell chrome devs to support RFC 5988 
+Firefox masterrace)

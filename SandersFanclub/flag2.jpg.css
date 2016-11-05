@@ -1,3 +1,15 @@
+GET http://sandersfanclub.pwn.democrat/flag2.jpg
+200 OK
+Connection: close
+Date: Sat, 05 Nov 2016 14:16:53 GMT
+Server: nginx/1.10.0 (Ubuntu)
+Content-Length: 2230
+Content-Type: text/css
+Client-Date: Sat, 05 Nov 2016 14:16:53 GMT
+Client-Peer: 52.205.233.191:80
+Client-Response-Num: 1
+Link: <flag2.jpg>;rel=stylesheet
+
 /* Space out content a bit */
 body {
   padding-top: 40px;

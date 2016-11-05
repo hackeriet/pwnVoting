@@ -1,1 +1,1 @@
-GET -H "Accept: text/css" http://sandersfanclub.pwn.democrat/flag2.jpg
+GET -Sue -H 'Accept: text/plain' http://sandersfanclub.pwn.democrat/flag2.jpg
