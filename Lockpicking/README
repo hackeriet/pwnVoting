@@ -1,0 +1,9 @@
+Find offsets for strings starting with "PK":
+
+strings -td -n2 lockpicking.ec95daebcc116c7f27e892d61a1333372e8903a039267e083a857a41deb37070.png  | grep -P "\d+ PK" | cut -d\  -f1
+
+Pick the data at the offsets
+
+for offset in $(cat pk-offsets.txt); do dd ibs=1 seek=$offset if=lockpicking.ec95daebcc116c7f27e892d61a1333372e8903a039267e083a857a41deb37070.png of=tmp/$offset count=1 bs=1M ^C&- ; echo -n . ; done
+
+
